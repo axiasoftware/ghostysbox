@@ -1,8 +1,11 @@
+body {
+  font-family: ArialPixel;
+  background-color: #00FF66;
+}
 .tab {
   overflow: hidden;
   border: 3px solid #000000;
   background-color: #CCCCCC;
-  color: #000000;
 }
 
 .tab button {
@@ -13,6 +16,9 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  color: #000000;
+  font-family: ArialPixel;
+  border-right: 3px solid;
 }
 
 .tab button:hover {
@@ -28,4 +34,13 @@
   padding: 6px 12px;
   border: 3px solid #000000;
   border-top: none;
+  background-color: #FFFFFF;
+}
+
+@font-face {
+  font-family: ArialPixel;
+  src: url("https://cdn.jsdelivr.net/gh/ekmas/cs16.css@main/ArialPixel.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
