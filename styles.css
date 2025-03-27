@@ -48,3 +48,8 @@ body {
 .footer {
   text-align: center;
 }
+
+img {
+text-align: center;
+border: 3px solid;
+}
